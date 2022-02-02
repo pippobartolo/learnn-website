@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">Roy Riddle</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Hi, I'm<br>Roy Riddle</h1>
+            <h3>Street Photographer<br>based in Milan</h3>
+            <a class="hero-cta" href="">Discover My Works</a>
+        </div>
+    </section>
+
+    <section class="works-menu">
+        <div class="container">
+            <ul>
+                <li><a class="button" href="#through">Through the glass</a></li>
+                <li><a class="button" href="#neon">Neon Lights</a></li>
+                <li><a class="button" href="#light">Light Trails</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="works">
+        <a class="anchors" id="works"></a>
+        <div class="container">
+
+            <div class="works-item">
+                <a class="anchors" id="through"></a>
+                <div class="works-item-tags">Street Photography \ London \ 2020</div>
+                <h2>Through the glass</h2>
+
+                <div class="work-info">
+                    <div class="work-info-label">About</div>
+                    <div class="work-info-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime culpa neque impedit odit minus tenetur cumque recusandae similique. Commodi voluptatum veritatis sequi at accusamus neque ex molestiae nobis autem sapiente.</p>
+                    </div>
+                </div>
+
+                <div class="work-info">
+                    <div class="work-info-label">Output</div>
+                    <div class="work-info-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime culpa neque impedit odit minus tenetur cumque recusandae similique. Commodi voluptatum veritatis sequi at accusamus neque ex molestiae nobis autem sapiente.</p>
+                    </div>
+                </div>
+
+                <div class="images">
+                    <img class="image-right" src="learnn-webpage/images/1jpg" alt="">
+                    <img class="image-left" src="images/2.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="works-item">
+                <a class="anchors" id="neon"></a>
+                <div class="works-item-tags">Street Photography \ Los Angeles \ 2019</div>
+                <h2>Neon Lights</h2>
+
+                <div class="work-info">
+                    <div class="work-info-label">About</div>
+                    <div class="work-info-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime culpa neque impedit odit minus tenetur cumque recusandae similique. Commodi voluptatum veritatis sequi at accusamus neque ex molestiae nobis autem sapiente.</p>
+                    </div>
+                </div>
+
+                <div class="work-info">
+                    <div class="work-info-label">Output</div>
+                    <div class="work-info-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime culpa neque impedit odit minus tenetur cumque recusandae similique. Commodi voluptatum veritatis sequi at accusamus neque ex molestiae nobis autem sapiente.</p>
+                    </div>
+                </div>
+
+                <div class="images">
+                    <img class="image-right" src="images/3.jpg" alt="">
+                    <img class="image-left" src="images/8.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="works-item">
+                <a class="anchors" id="light"></a>
+                <div class="works-item-tags">Street Photography \ New York \ 2018</div>
+                <h2>Light Trails</h2>
+
+                <div class="work-info">
+                    <div class="work-info-label">About</div>
+                    <div class="work-info-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime culpa neque impedit odit minus tenetur cumque recusandae similique. Commodi voluptatum veritatis sequi at accusamus neque ex molestiae nobis autem sapiente.</p>
+                    </div>
+                </div>
+
+                <div class="work-info">
+                    <div class="work-info-label">Output</div>
+                    <div class="work-info-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime culpa neque impedit odit minus tenetur cumque recusandae similique. Commodi voluptatum veritatis sequi at accusamus neque ex molestiae nobis autem sapiente.</p>
+                    </div>
+                </div>
+
+                <div class="images">
+                    <img class="image-right" src="images/5.jpg" alt="">
+                    <img class="image-left" src="images/6.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container contacts-content">
+            <div class="contacts-about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim odit et dolore minus sunt possimus quisquam, quae placeat quaerat repudiandae!</p>
+            </div>
+            <div class="contacts-form">
+                <form name="contacts" netlify>
+                    <label class="input-label" for="">Full Name</label>
+                    <input class="input-field" type="text" name="fullname" placeholder="Name Surname" required>
+
+                    <label class="input-label" for="">E-mail</label>
+                    <input class="input-field" type="email" name="email" placeholder="example@mail.come" required>
+
+                    <label class="input-label" for="">Subject</label>
+                    <input class="input-field" type="text" name="subject" placeholder="example subject" required>
+
+                    <label class="input-label" for="">Message <span>Optional (max 500 length)</span></label>
+                    <textarea class="input-textarea" name="message" placeholder="write here" maxlength="500"></textarea>
+
+                    <button class="button">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">Roy Riddle copyright 2021</div>
+        </div>
+    </footer>
+
+   <!-- <div class="back-to-top"></div> -->
+    
+</body>
+</html>
